@@ -13,3 +13,6 @@ carpeta sin título/
 # Archivos del sistema
 .DS_Store
 Thumbs.db
+
+# Archivos de notas
+notas.txt
