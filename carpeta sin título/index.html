@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan de Entrenamiento - Gimnasio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <h1>💪 Plan de Entrenamiento</h1>
+            <p class="subtitle">Guía interactiva para el gimnasio</p>
+        </header>
+
+        <nav class="day-selector">
+            <button class="day-btn active" data-day="sesion1">S1</button>
+            <button class="day-btn" data-day="sesion2">S2</button>
+            <button class="day-btn" data-day="sesion3">S3</button>
+            <button class="day-btn" data-day="sesion4">S4</button>
+            <button class="day-btn" data-day="sesion5">S5</button>
+        </nav>
+
+        <div class="tracking-section">
+            <div class="tracking-header">
+                <h3>📊 Progreso de Entrenamiento</h3>
+                <button class="reset-btn" id="reset-tracking">↻ Reset</button>
+            </div>
+            <div class="tracking-stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="completed-exercises">0</span>
+                    <span class="stat-label">Ejercicios completados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="total-exercises-global">25</span>
+                    <span class="stat-label">Total ejercicios</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="completion-percentage">0%</span>
+                    <span class="stat-label">Completado</span>
+                </div>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+        </div>
+
+        <main class="main-content">
+            <div class="day-info">
+                <h2 id="day-title">SESIÓN 1</h2>
+                <p id="day-description">Empuje (Pecho/Hombros/Tríceps)</p>
+                <span id="day-duration">55 min</span>
+            </div>
+
+            <div class="exercises-container" id="exercises-container">
+                <!-- Los ejercicios se cargarán dinámicamente -->
+            </div>
+        </main>
+
+        <div class="progress-indicator">
+            <span id="current-exercise">1</span> / <span id="total-exercises">5</span>
+        </div>
+    </div>
+
+    <script src="trainingData.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
