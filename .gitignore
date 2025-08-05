@@ -1,0 +1,15 @@
+# Archivos y carpetas a ignorar por git
+
+# Archivos de planes de entrenamiento
+plan_entrenamiento.md
+plan_entrenamiento_extendido.md
+
+# Configuración de VS Code
+.vscode/
+
+# Carpeta temporal o sin nombre
+carpeta sin título/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
