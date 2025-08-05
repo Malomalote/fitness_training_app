@@ -158,8 +158,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.m
 ## 👤 Autor
 
 **Antonio García**
-- GitHub: [@tuusuario](https://github.com/tuusuario)
-- Email: tu.email@ejemplo.com
+- GitHub: https://github.com/Malomalote/fitness_training_app
 
 ## 🙏 Agradecimientos
 
